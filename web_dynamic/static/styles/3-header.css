@@ -1,0 +1,11 @@
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: #cccccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.available {
+  background-color: #ff545f;
+}

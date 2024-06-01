@@ -7,6 +7,8 @@ from flask import Flask, render_template, make_response, jsonify
 from flask_cors import CORS
 from flasgger import Swagger
 from flasgger.utils import swag_from
+import uuid
+
 
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
@@ -30,12 +32,20 @@ def not_found(error):
     """
     return make_response(jsonify({'error': "Not found"}), 404)
 
+
 app.config['SWAGGER'] = {
     'title': 'AirBnB clone Restful API',
     'uiversion': 3
 }
 
 Swagger(app)
+
+
+@app.route('/2-hbnb/')
+def display_hbnb():
+    """Displays the 2-hbnb page"""
+    cache_id = str(uuid.uuid4())
+    return render_template('2-hbnb.html', cache_id=cache_id)
 
 
 if __name__ == "__main__":
