@@ -126,6 +126,53 @@ TestBaseModel class:
 * `def test_user_module_docstring(self)` - Test for the user.py module docstring
 * `def test_user_class_docstring(self)` - Test for the User class docstring
 
+# AirBnB Clone - Web Dynamic
+
+This repository contains the fourth version of the AirBnB clone project, focusing on dynamic web functionality using Flask, jQuery, and AJAX. The project demonstrates the implementation of a dynamic web application with front-end and back-end integration.
+
+## Authors
+
+- Hassan Abdelftah
+- Sihle Mtshali
+
+## Project Overview
+
+This project involves creating and managing the dynamic aspects of the AirBnB clone using Flask for the back-end and jQuery for front-end interactivity.
+
+## File Descriptions
+
+### Root Directory
+- `README.md`: Project documentation.
+
+### `web_dynamic` Directory
+- `0-hbnb.py`: Flask application for task 0.
+- `1-hbnb.py`: Flask application for task 1.
+- `2-hbnb.py`: Flask application for task 2.
+- `3-hbnb.py`: Flask application for task 3.
+- `4-hbnb.py`: Flask application for task 4.
+- `100-hbnb.py`: Flask application for task 5.
+- `101-hbnb.py`: Flask application for task 6.
+
+### `web_dynamic/templates` Directory
+- `0-hbnb.html`: HTML template for task 0.
+- `1-hbnb.html`: HTML template for task 1.
+- `2-hbnb.html`: HTML template for task 2.
+- `3-hbnb.html`: HTML template for task 3.
+- `4-hbnb.html`: HTML template for task 4.
+- `100-hbnb.html`: HTML template for task 5.
+- `101-hbnb.html`: HTML template for task 6.
+
+### `web_dynamic/static/scripts` Directory
+- `1-hbnb.js`: JavaScript for task 1.
+- `2-hbnb.js`: JavaScript for task 2.
+- `3-hbnb.js`: JavaScript for task 3.
+- `4-hbnb.js`: JavaScript for task 4.
+- `100-hbnb.js`: JavaScript for task 5.
+- `101-hbnb.js`: JavaScript for task 6.
+
+### `web_dynamic/static/styles` Directory
+- `3-header.css`: CSS for task 2.
+
 
 ## Examples of use
 ```
